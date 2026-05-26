@@ -11,4 +11,5 @@
 
 <h1>DAY-2</h1>
 
-- Today we learnt  
+- Today we learnt about the basics of RC circuits
+- we are introduced to Linear systems and 
