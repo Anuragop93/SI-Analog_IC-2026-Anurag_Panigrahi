@@ -1,4 +1,4 @@
-Title : R-C circuit charcateristics
+Title : R-C circuit charcateristics with Trise,Tfall and Tavg calculation
 
 .TEMP 27
 
