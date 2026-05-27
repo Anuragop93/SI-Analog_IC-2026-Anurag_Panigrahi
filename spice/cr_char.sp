@@ -1,4 +1,4 @@
-Title : C-R circuit charcateristics
+Title : C-R circuit charcateristics with Trise,Tfall and Tavg calculation
 
 .TEMP 27
 
