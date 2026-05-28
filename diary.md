@@ -1,7 +1,7 @@
 # Diary
 <h1>DAY-1</h1>       
 
-**25/06/26**
+**25/05/26**
 
 -  Today we learnt about the basics of circuits their operations and their characteristics
 -  we learnt about how Linux subsystems and its commands
@@ -13,7 +13,7 @@
 
 <h1>DAY-2</h1>       
 
-**26/06/26**
+**26/05/26**
 
 - Today we learnt about the basics of RC circuits
 - we are introduced to Linear systems and taught how to apply circuit analysis(KCL,KVL,Nodal,Thevenin) to those circuits.
@@ -22,10 +22,19 @@
 
 <h1>DAY-3</h1>
 
-**27/06/26**
+**27/05/26**
 
 - Today we learnt how to solve the questions of RC circuits
 - we learnt how the RC circuits will beahave to different type of inputs like STEP input,PULSE input,etc
 - we learnt how to estimate the output waveform of a RC circuit
 - we have made Spice Netlist of the same circuits which we have discussed
 - from the spice netlist we find the RISE time(Trise), FALL time(Tfall) & AVG time(Tavg) and their output waveform
+
+<h1>DAY-4</h1>
+
+**28/05/26**
+
+- Today we learnt about the frequency responce of RC circuits and also OP-AMP's
+- we solved some problems regarding frequency responce
+- we learnt how to make the output waveform of these circuits
+- 
