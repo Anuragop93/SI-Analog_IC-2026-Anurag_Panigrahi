@@ -37,4 +37,6 @@
 - Today we learnt about the frequency responce of RC circuits and also OP-AMP's
 - we solved some problems regarding frequency responce
 - we learnt how to make the output waveform of these circuits
-- 
+- Today we are introduced to the ADALM2000 board
+- we measured the supply voltage across the ADALM2000 board using Scopy software
+- we made a voltage divider circuit to check whether the voltage is dividing or not and the circuit is working or not
