@@ -40,3 +40,22 @@
 - Today we are introduced to the ADALM2000 board
 - we measured the supply voltage across the ADALM2000 board using Scopy software
 - we made a voltage divider circuit to check whether the voltage is dividing or not and the circuit is working or not
+
+<h1>DAY-5</h1>
+
+**29/05/26**
+
+- we have drawn the schematic of the MEMS microphone on Xschem
+- we have simulated it and compared it with the output of the waveform from the NGSpice
+- we have make a RC circuit on the Bread Board and connected it to the ADALM2000 board and checked that it is matching to the output of other two or not
+- we took different values of input impedance and checked how the output is behaving
+
+<h1>DAY-6</h1>
+
+**01/06/26**
+
+- Today we again checked the Schematic of the MEMS microphone on the XSChem and simulated it
+- we took different inputs like AC,DC and SIN input for the Voltage source and the Input source and checked how the circuit is behaving
+- we checked the output for different input of frequency like 1KHz,1Hz,200KHz.
+- we measured the magnitude of Vout,and the -3db frequency of High-pass filter and Low-Pass filter\
+- we have measured the peak to peak voltage of Input and Output and calculated the gain for different frequencies
