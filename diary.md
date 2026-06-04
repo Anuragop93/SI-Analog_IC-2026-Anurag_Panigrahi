@@ -77,3 +77,11 @@
 - Today we learnt about the Passive IC devices like the Resistor,Capacitor,Inductor
 - we derived the formula for each and saw how the current changes for different conditions
 - we solved few problems related to it
+
+<h1>DAY-9</h1>
+
+**04/06/26**
+
+- Today we learn in deep about the Semiconductor physics
+- we studied about the structure of MOS transistor and its characteristics
+- we learn about different region of operation of a MOS transistor and its respective equations
