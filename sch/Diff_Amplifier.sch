@@ -57,17 +57,20 @@ N -90 -370 -90 -350 {lab=#net1}
 N 140 -370 140 -300 {lab=#net1}
 N -230 150 -230 200 {lab=GND}
 N -230 200 -220 200 {lab=GND}
-N -140 -30 -110 -30 {lab=#net4}
-N -140 -90 -140 -30 {lab=#net4}
-N -140 -90 180 -90 {lab=#net4}
-N 180 -90 180 -30 {lab=#net4}
-N 170 -30 180 -30 {lab=#net4}
+N -140 -30 -110 -30 {lab=Vin1}
+N 170 -30 180 -30 {lab=Vin2}
 N -140 30 -140 40 {lab=GND}
 N 0 -160 0 -120 {lab=Vm6}
 N -70 -120 -0 -120 {lab=Vm6}
-N 10 110 10 120 {lab=#net5}
+N 10 110 10 120 {lab=#net4}
 N 10 30 10 50 {lab=Vv3}
 N 260 -120 290 -120 {lab=Vm3}
+N 180 -30 200 -30 {lab=Vin2}
+N -140 40 -140 60 {lab=GND}
+N -140 60 -50 60 {lab=GND}
+N -50 60 200 60 {lab=GND}
+N 200 30 200 60 {lab=GND}
+N 120 60 120 80 {lab=GND}
 C {sky130_fd_pr/nfet_01v8.sym} -90 -30 0 0 {name=M2
 L=2
 W=5  
@@ -133,23 +136,26 @@ C {simulator_commands_shown.sym} 490 -190 0 0 {name=COMMANDS
 simulator=ngspice
 only_toplevel=false 
 value="
-.dc V4 0 1.8 0.01
- 
+.ac dec 10 1 10G 
 .control
 run
 
-PLOT i(V2) i(V5) i(V3)
-
-PLOT v(Vm3) v(Vm4) v(Vv3) v(Vm6) 
+PLOT v(Vin1) v(Vin2) 
+PLOT v(Vm3)
+PLOT vdb(Vm3)
+PLOT ph(Vm3)*(180/pi) 
 
 
 .endc
 .end
 "}
 C {vsource.sym} 130 -210 0 0 {name=V5 value=0 savecurrent=false}
-C {vsource.sym} -140 0 0 0 {name=V4 value=1.2 savecurrent=false}
-C {gnd.sym} -140 40 0 0 {name=l3 lab=GND}
+C {vsource.sym} -140 0 0 0 {name=V4 value="1.2 AC = 0.5" savecurrent=false}
 C {lab_pin.sym} -150 80 2 0 {name=p2 sig_type=std_logic lab=Vm4}
 C {lab_pin.sym} -70 -150 2 0 {name=p3 sig_type=std_logic lab=Vm6}
 C {lab_pin.sym} 290 -120 2 0 {name=p4 sig_type=std_logic lab=Vm3}
 C {lab_pin.sym} 10 40 2 0 {name=p5 sig_type=std_logic lab=Vv3}
+C {vsource.sym} 200 0 0 0 {name=V6 value="1.2 AC = -0.5" savecurrent=false}
+C {lab_pin.sym} -120 -30 1 0 {name=p1 sig_type=std_logic lab=Vin1}
+C {lab_pin.sym} 190 -30 1 0 {name=p6 sig_type=std_logic lab=Vin2}
+C {gnd.sym} 120 80 0 0 {name=l3 lab=GND}
