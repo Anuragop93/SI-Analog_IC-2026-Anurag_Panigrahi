@@ -124,4 +124,15 @@
 
 **11/06/26**
 
-- Today we learnt 
+- Today we learnt about cascode current mirror
+- we have made a schematic of cascode current mirror and also done different type of analysis like AC,DC,Transient and compared how the output behaves
+- we have made a NMOS current mirror and a PMOS current mirror in XSchme and saw what are the different outputs and also varied the W/L value to see the changes
+
+<h1>DAY-15</h1>
+
+**12/06/26**
+
+- Today we learnt about the differential amplifiers and its working
+- we have drawn the schematic of the differential amoplifer and OPAMP and also saw the outputs
+- we learnt how the opamp behaves for different inputs how it works and all its functions
+- we have completed all the pending works
