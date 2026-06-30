@@ -113,3 +113,15 @@
 <h1>DAY-13</h1>
 
 **10/06/26**
+
+- Today we learnt about the current mirrors
+- we learnt how to analyse a current mirror how to apply kcl,kvl in it
+- we learnt how the current get mirrored
+- we learnt about the differential amplifier
+- we have done the schematic and spice simulation of different types of current mirrors
+
+<h1>DAY-14</h1>
+
+**11/06/26**
+
+- Today we learnt 
