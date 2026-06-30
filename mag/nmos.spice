@@ -1,0 +1,13 @@
+* NGSPICE file created from nmos.ext - technology: sky130A
+
+.subckt nmos
+X0 M5 M5 GND GND sky130_fd_pr__nfet_01v8 ad=5 pd=7 as=5 ps=7 w=5 l=2
+X1 GND M5 I0 GND sky130_fd_pr__nfet_01v8 ad=10 pd=14 as=5 ps=7 w=5 l=2
+X2 M5 M5 GND GND sky130_fd_pr__nfet_01v8 ad=5 pd=7 as=5 ps=7 w=5 l=2
+X3 GND M5 M5 GND sky130_fd_pr__nfet_01v8 ad=5 pd=7 as=5 ps=7 w=5 l=2
+X4 I0 M5 GND GND sky130_fd_pr__nfet_01v8 ad=5 pd=7 as=10.00515 ps=14.02 w=5 l=2
+X5 GND M5 M5 GND sky130_fd_pr__nfet_01v8 ad=5 pd=7 as=5 ps=7 w=5 l=2
+X6 I0 M5 GND GND sky130_fd_pr__nfet_01v8 ad=5 pd=7 as=5 ps=7 w=5 l=2
+X7 GND M5 I0 GND sky130_fd_pr__nfet_01v8 ad=5 pd=7 as=5 ps=7 w=5 l=2
+.ends
+
