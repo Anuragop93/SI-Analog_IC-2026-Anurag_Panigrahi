@@ -57,7 +57,7 @@
 - Today we again checked the Schematic of the MEMS microphone on the XSChem and simulated it
 - we took different inputs like AC,DC and SIN input for the Voltage source and the Input source and checked how the circuit is behaving
 - we checked the output for different input of frequency like 1KHz,1Hz,200KHz.
-- we measured the magnitude of Vout,and the -3db frequency of High-pass filter and Low-Pass filter\
+- we measured the magnitude of Vout,and the -3db frequency of High-pass filter and Low-Pass filter
 - we have measured the peak to peak voltage of Input and Output and calculated the gain for different frequencies
 
 <h1>DAY-7</h1>
@@ -85,3 +85,31 @@
 - Today we learn in deep about the Semiconductor physics
 - we studied about the structure of MOS transistor and its characteristics
 - we learn about different region of operation of a MOS transistor and its respective equations
+
+<h1>DAY-10</h1>
+
+**05/06/26**
+
+- Today we have gone further in the schematic of MEMS microphone
+- we have verified the waveforms for different inputs like DC,AC,Pulse
+- we have verified the output using the ADALM2000 board with different input frequencies
+
+<h1>DAY-11</h1>
+
+**08/06/26**
+
+- Today we learnt about the MOS transistors and its operations
+- we learnt about different transistors like BJT,FET
+- we learnt about the basic circuit analysis
+
+<h1>DAY-12</h1>
+
+**09/06/26**
+
+- Today we learnt about basic circcuit analysis techniques
+- we learn how to apply KCL,KVL and use different laws
+- we learnt about superposition,conservation of energy,etc
+
+<h1>DAY-13</h1>
+
+**10/06/26**
