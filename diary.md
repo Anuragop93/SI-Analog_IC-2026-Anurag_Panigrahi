@@ -120,6 +120,7 @@
 - we learnt about the differential amplifier
 - we have done the schematic and spice simulation of different types of current mirrors
 
+
 <h1>DAY-14</h1>
 
 **11/06/26**
@@ -127,6 +128,7 @@
 - Today we learnt about cascode current mirror
 - we have made a schematic of cascode current mirror and also done different type of analysis like AC,DC,Transient and compared how the output behaves
 - we have made a NMOS current mirror and a PMOS current mirror in XSchme and saw what are the different outputs and also varied the W/L value to see the changes
+
 
 <h1>DAY-15</h1>
 
